@@ -211,7 +211,7 @@ spec:
               mode. One of privileged, baseline, restricted.
             type: string
           enabled:
-            default: true
+            default: false
             description: enabled enables the patches to enable Pod Security Standard
               via AdmissionConfiguration.
             type: boolean
